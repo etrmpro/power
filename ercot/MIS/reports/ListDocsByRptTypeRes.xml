@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ns0:ListDocsByRptTypeRes xmlns:ns0="http://www.ercot.com/schema/2012-10/nodal/ListDocsByRptTypeRes">
+  <ns0:DocumentList>
+    <ns0:Document>
+      <ns0:ExpiredDate>2015-12-12T23:59:59-06:00</ns0:ExpiredDate>
+      <ns0:ILMStatus>EXT</ns0:ILMStatus>
+      <ns0:SecurityStatus>P</ns0:SecurityStatus>
+      <ns0:ContentSize>90005</ns0:ContentSize>
+      <ns0:Extension>zip</ns0:Extension>
+      <ns0:FileName/>
+      <ns0:ReportTypeID>203</ns0:ReportTypeID>
+      <ns0:Prefix>ext</ns0:Prefix>
+      <ns0:FriendlyName>AEP_CENTRAL__DAILY</ns0:FriendlyName>
+      <ns0:ConstructedName>ext.00000203.0000000000000000.20151111.075203889.AEP_CENTRAL__DAILY.zip</ns0:ConstructedName>
+      <ns0:DocID>499845274</ns0:DocID>
+      <ns0:PublishDate>2015-11-11T07:52:03-06:00</ns0:PublishDate>
+      <ns0:ReportName>TDSP ESI ID EXTRACT</ns0:ReportName>
+      <ns0:DUNS>0000000000000000</ns0:DUNS>
+      <ns0:DocCount>0</ns0:DocCount>
+    </ns0:Document>
+    <ns0:Document>
+      <ns0:ExpiredDate>2015-12-12T23:59:59-06:00</ns0:ExpiredDate>
+      <ns0:ILMStatus>EXT</ns0:ILMStatus>
+      <ns0:SecurityStatus>P</ns0:SecurityStatus>
+      <ns0:ContentSize>12604</ns0:ContentSize>
+      <ns0:Extension>zip</ns0:Extension>
+      <ns0:FileName/>
+      <ns0:ReportTypeID>203</ns0:ReportTypeID>
+      <ns0:Prefix>ext</ns0:Prefix>
+      <ns0:FriendlyName>AEP_NORTH____DAILY</ns0:FriendlyName>
+      <ns0:ConstructedName>ext.00000203.0000000000000000.20151111.075203654.AEP_NORTH____DAILY.zip</ns0:ConstructedName>
+      <ns0:DocID>499845273</ns0:DocID>
+      <ns0:PublishDate>2015-11-11T07:52:03-06:00</ns0:PublishDate>
+      <ns0:ReportName>TDSP ESI ID EXTRACT</ns0:ReportName>
+      <ns0:DUNS>0000000000000000</ns0:DUNS>
+      <ns0:DocCount>0</ns0:DocCount>
+    </ns0:Document>
+  </ns0:DocumentList>
+</ns0:ListDocsByRptTypeRes>

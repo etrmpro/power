@@ -7,7 +7,7 @@
     <ProjectGuid>{BB45256B-E9BB-4348-8CD0-E3A335CAAFD3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ercot</RootNamespace>
+    <RootNamespace>ERCOT</RootNamespace>
     <AssemblyName>ercot</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,11 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MIS\MISAppService.cs" />
+    <Compile Include="MIS\reports\ListDocsByRptTypeRes.cs" />
     <Compile Include="MIS\reports\ListReportTypeSchemaRes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MIS\reports\ListReportTypeSchemaRes.xml" />
+    <Content Include="MIS\reports\ListDocsByRptTypeRes.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
