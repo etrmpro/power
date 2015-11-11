@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ns0:ListReportTypeSchemaRes xmlns:ns0="http://www.ercot.com/schema/2012-10/nodal/ListReportTypeSchemaRes">
+  <ns0:ReportTypeList>
+    <ns0:Report>
+      <ns0:ReportTypeID>13057</ns0:ReportTypeID>
+      <ns0:ReportName>48-Hour Ancillary Services Reports</ns0:ReportName>
+      <ns0:SecurityClassification>PUBLIC</ns0:SecurityClassification>
+    </ns0:Report>
+    <ns0:Report>
+      <ns0:ReportTypeID>13057</ns0:ReportTypeID>
+      <ns0:ReportName>48-Hour Ancillary Services Reports</ns0:ReportName>
+      <ns0:SecurityClassification>PUBLIC</ns0:SecurityClassification>
+    </ns0:Report>
+  </ns0:ReportTypeList>
+</ns0:ListReportTypeSchemaRes>
