@@ -38,5 +38,16 @@ namespace ERCOT.MIS
                 return res.DocumentList.ToList();
             }
         }
+
+        public string FetchDocumentByDocId(int doclookupId)
+        {
+            var url = "http://mis.ercot.com/misdownload/servlets/mirDownload?doclookupId=";
+            using (var webClient = new WebClient())
+            {
+                string fileLocation = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString());
+                webClient.DownloadFile(url + doclookupId, @fileLocation);
+                return fileLocation;
+            }
+        }
     }
 }
