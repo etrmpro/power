@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace RetailEnergy.Models
 {
     public class ServiceLocation : AbstractModel
     {
         public int ServiceLocationId { get; set; }
+        public Address Address { get; set; }
+        public List<Meter> Meters { get; set; }
     }
 }

@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\AbstractModel.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Meter.cs" />
     <Compile Include="Models\ServiceLocation.cs" />
     <Compile Include="Models\Account.cs" />
